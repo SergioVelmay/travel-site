@@ -4,7 +4,7 @@
     @mixin atMedium {
         padding-top: 0;
     }
-    
+
     &--pull-right {
         @mixin atMedium {
             float: right;
@@ -50,6 +50,14 @@
             padding: 12px 0;
             font-size: 1rem;
             background-color: transparent;
+
+            &:hover {
+                color: #e9aa58;
+            }
+
+            &.is-current-link {
+                color: #fabb69;
+            }
         }
     }
 }
