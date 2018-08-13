@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "dependencies": {
     "jQuery": "^1.7.4",
-    "jquery": "^3.3.1",
     "jquery-smooth-scroll": "2.2.0",
     "lazysizes": "4.0.1",
     "normalize.css": "^7.0.0",
     "picturefill": "3.0.2",
-    "waypoints": "4.0.1"
+    "waypoints": "^4.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.6",
@@ -29,6 +28,7 @@
     "gulp-uglify": "3.0.0",
     "gulp-usemin": "0.3.28",
     "gulp-watch": "^4.3.11",
+    "jquery": "^3.3.1",
     "postcss-hexrgba": "^1.0.0",
     "postcss-import": "^11.0.0",
     "postcss-mixins": "^6.2.0",
