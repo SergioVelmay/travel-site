@@ -7,6 +7,9 @@ Instead edit gulp/templates/sprite.css and run "gulp icons" in the command line.
 .icon {
     background-image: url('/assets/images/sprites/{{{sprite}}}');
 }
+.no-svg .icon {
+    background-image: url('/assets/images/sprites/{{#replaceSVGwithPNG}}{{{sprite}}}{{/replaceSVGwithPNG}}');
+}
     {{/first}}
 .icon--{{base}} {
     width: {{width.outer}}px;
